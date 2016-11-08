@@ -1,4 +1,4 @@
-﻿<krpano>
+<krpano>
 	<!-- krpano 1.18 default buttons skin -->
 
 	<!-- default mouse control mode (moveto or drag2d) -->
@@ -27,8 +27,8 @@
 	<!-- no fullscreen support => no fullscreen button => smaller container width -->
 	<layer name="defaultskin_buttons" width="320" devices="!fullscreensupport" />
 
-	<!-- scale the buttons 2x for mobile devices (when the mobilescale setting in the html file is below 1.0) -->
-	<layer name="defaultskin_buttons" scale="2.0" if="device.mobile AND stagescale LT 1.0" />
+	<!-- scale the buttons 2x for mobile devices -->
+	<layer name="defaultskin_buttons" scale="2.0" devices="mobile" />
 
 
 	<!-- events for handling dynamic changes -->

@@ -1,4 +1,4 @@
-﻿<krpano>
+<krpano version="1.18">
 	
 	<!-- the skin -->
 	<include url="skin/defaultskin.xml" />
@@ -10,16 +10,16 @@
 	<preview url="DubaiMarinaCayan.tiles/preview.jpg" />
 
 	<image type="CYLINDER" hfov="1.00" vfov="0.245723" voffset="0.00" multires="true" tilesize="512" progressive="true">
-		<level tiledimagewidth="23168" tiledimageheight="5694">
+		<level tiledimagewidth="23148" tiledimageheight="5688">
 			<cylinder url="DubaiMarinaCayan.tiles/l4/%v/l4_%v_%h.jpg" />
 		</level>
-		<level tiledimagewidth="11520" tiledimageheight="2832">
+		<level tiledimagewidth="11574" tiledimageheight="2844">
 			<cylinder url="DubaiMarinaCayan.tiles/l3/%v/l3_%v_%h.jpg" />
 		</level>
-		<level tiledimagewidth="5760" tiledimageheight="1416">
+		<level tiledimagewidth="5788" tiledimageheight="1422">
 			<cylinder url="DubaiMarinaCayan.tiles/l2/%v/l2_%v_%h.jpg" />
 		</level>
-		<level tiledimagewidth="2816" tiledimageheight="692">
+		<level tiledimagewidth="2894" tiledimageheight="712">
 			<cylinder url="DubaiMarinaCayan.tiles/l1/%v/l1_%v_%h.jpg" />
 		</level>
 	</image>
