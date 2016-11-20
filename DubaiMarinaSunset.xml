@@ -1,0 +1,27 @@
+<krpano version="1.18">
+	
+	<!-- the skin -->
+	<include url="skin/defaultskin.xml" />
+	
+	<!-- view settings -->
+	<view hlookat="0" vlookat="0" maxpixelzoom="1.0" fovmax="150" limitview="auto" />
+	
+
+	<preview url="DubaiMarinaSunset.tiles/preview.jpg" />
+
+	<image type="CYLINDER" hfov="1.00" vfov="0.257392" voffset="0.00" multires="true" tilesize="512" progressive="true">
+		<level tiledimagewidth="16640" tiledimageheight="4284">
+			<cylinder url="DubaiMarinaSunset.tiles/l4/%v/l4_%v_%h.jpg" />
+		</level>
+		<level tiledimagewidth="8320" tiledimageheight="2142">
+			<cylinder url="DubaiMarinaSunset.tiles/l3/%v/l3_%v_%h.jpg" />
+		</level>
+		<level tiledimagewidth="4160" tiledimageheight="1072">
+			<cylinder url="DubaiMarinaSunset.tiles/l2/%v/l2_%v_%h.jpg" />
+		</level>
+		<level tiledimagewidth="2048" tiledimageheight="528">
+			<cylinder url="DubaiMarinaSunset.tiles/l1/%v/l1_%v_%h.jpg" />
+		</level>
+	</image>
+
+</krpano>
